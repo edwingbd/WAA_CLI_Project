@@ -17,17 +17,31 @@
         <script type="text/javascript" src="https://s3.us-east-2.amazonaws.com/tv-springboot/waa/waa.js"></script>
         <script>
             $(document).ready(function(){
+
                 $("#enLang").click(function () {
-                    console.log('en click');
+                    console.log('Englishj click');
                     window.location.replace('?lang=' + 'en');
 
                 })
 
                 $("#spLang").click(function () {
-                    console.log('tr click');
+                    console.log('Spanih click');
                     /*                    console.log(this.innerHTML);
                                         console.log(this.val);*/
                     window.location.replace('?lang=' + 'sp');
+
+                })
+                $("#npLang").click(function () {
+                    console.log('Nepaly click');
+                    window.location.replace('?lang=' + 'np');
+
+                })
+
+                $("#khLang").click(function () {
+                    console.log('Khmer click');
+                    /*                    console.log(this.innerHTML);
+                                        console.log(this.val);*/
+                    window.location.replace('?lang=' + 'kh');
 
                 })
             });
@@ -52,7 +66,7 @@
                         <li><a id="enLang" val="en">English</a></li>
                         <li><a id="spLang">Spanish</a></li>
                         <li><a id="npLang">Nepali</a></li>
-                        <li><a id="caLang">Camboya</a></li>
+                        <li><a id="khLang">Khmer</a></li>
                     </ul>
                 </li>
             </ul>

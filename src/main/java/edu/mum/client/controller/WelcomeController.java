@@ -6,12 +6,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WelcomeController {
     
-    @GetMapping("/")
+    @GetMapping("/")// aour first page alwasy be the login
     private String start(){
-        return "index";
+        return "login";
     }
     @GetMapping("/login")
     private String login(){
-        return "login2";
+        return "login";
+    }
+    @GetMapping("/indexT")
+    private String intextest(){
+        return "index";
     }
 }

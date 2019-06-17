@@ -15,41 +15,49 @@
         <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
         <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
         <script type="text/javascript" src="https://s3.us-east-2.amazonaws.com/tv-springboot/waa/waa.js"></script>
-<!--        <script>-->
-<!--            $(document).ready(function(){-->
-<!--                $("#enLang").click(function () {-->
-<!--                    console.log('en click');-->
-<!--                    /*                    console.log(this.innerHTML);-->
-<!--                                        console.log(this.val);*/-->
-<!--                    window.location.replace('?lang=' + 'en');-->
+        <script>
+            $(document).ready(function(){
+                $("#enLang").click(function () {
+                    console.log('en click');
+                    window.location.replace('?lang=' + 'en');
 
-<!--                })-->
+                })
 
-<!--                $("#trLang").click(function () {-->
-<!--                    console.log('tr click');-->
-<!--                    /*                    console.log(this.innerHTML);-->
-<!--                                        console.log(this.val);*/-->
-<!--                    window.location.replace('?lang=' + 'tr');-->
+                $("#spLang").click(function () {
+                    console.log('tr click');
+                    /*                    console.log(this.innerHTML);
+                                        console.log(this.val);*/
+                    window.location.replace('?lang=' + 'sp');
 
-<!--                })-->
-
-<!--                $("#mnLang").click(function () {-->
-<!--                    console.log('mn click');-->
-<!--                    /*                    console.log(this.innerHTML);-->
-<!--                                        console.log(this.val);*/-->
-<!--                    window.location.replace('?lang=' + 'mn');-->
-
-<!--                })-->
-
-
-<!--            });-->
-<!--        </script>-->
+                })
+            });
+        </script>
 
     </div>
 </head>
 <body>
 <div    th:fragment="header">
     here goes the menu
+    languge
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse bg-success">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" th:text="#{titleSystem}"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" th:text="#{language}">
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="enLang" val="en">English</a></li>
+                        <li><a id="spLang">Spanish</a></li>
+                        <li><a id="npLang">Nepali</a></li>
+                        <li><a id="caLang">Camboya</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </div>
 </body>
 </html>

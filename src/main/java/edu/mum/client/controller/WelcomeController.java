@@ -2,6 +2,7 @@ package edu.mum.client.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class WelcomeController {
@@ -10,12 +11,13 @@ public class WelcomeController {
     private String start(){
         return "login";
     }
-    @GetMapping("/login")
+    @PostMapping("/login")
     private String login(){
-        return "login";
+
+        return "redirect:/reports/entryReport";
     }
-    @GetMapping("/indexT")
-    private String intextest(){
-        return "index";
+    @GetMapping("/reports/entryReport")
+    private String indextest(){
+        return "reports/entryReport";
     }
 }

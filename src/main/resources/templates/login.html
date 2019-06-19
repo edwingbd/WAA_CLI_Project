@@ -26,7 +26,7 @@
                     <input type="password" class="form-control" id="password" th:field="*{password}"/>
                 </div>
                 <div id="formFooter" class="form-group" sec:authorize="isAuthenticated()">
-                    <button type="submit" class="btn btn-primary form-control">Login</button>
+                    <button type="submit" class="btn btn-primary form-control" th:text="#{login}" >Login</button>
                 </div>
             </form>
         </div>

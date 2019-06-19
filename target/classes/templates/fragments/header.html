@@ -2,6 +2,7 @@
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 <head>
     <div th:fragment="header-css">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
         <link rel="stylesheet"  href="https://s3.us-east-2.amazonaws.com/tv-springboot/waa/waa.css"/>
@@ -14,6 +15,83 @@
         <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
         <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
         <script type="text/javascript" src="https://s3.us-east-2.amazonaws.com/tv-springboot/waa/waa.js"></script>
+        <style>
+            .panel-primary {
+                /*background-color: #194719 !important;*/
+                background-color: #F8F8F8;
+                border-color: #E7E7E7;
+            }
+            .panel-heading{}
+
+            .navbar-default {
+                background-color: #F8F8F8;
+                border-color: #E7E7E7;
+            }
+            /* Title */
+            .navbar-default .navbar-brand {
+                color: #777;
+            }
+            .navbar-default .navbar-brand:hover,
+            .navbar-default .navbar-brand:focus {
+                color: #5E5E5E;
+            }
+            /* Link */
+            .navbar-default .navbar-nav > li > a {
+                color: #777;
+            }
+            .navbar-default .navbar-nav > li > a:hover,
+            .navbar-default .navbar-nav > li > a:focus {
+                color: #333;
+            }
+            .navbar-default .navbar-nav > .active > a,
+            .navbar-default .navbar-nav > .active > a:hover,
+            .navbar-default .navbar-nav > .active > a:focus {
+                color: #555;
+                background-color: #E7E7E7;
+            }
+            .navbar-default .navbar-nav > .open > a,
+            .navbar-default .navbar-nav > .open > a:hover,
+            .navbar-default .navbar-nav > .open > a:focus {
+                color: #555;
+                background-color: #D5D5D5;
+            }
+            /* Caret */
+            .navbar-default .navbar-nav > .dropdown > a .caret {
+                border-top-color: #777;
+                border-bottom-color: #777;
+            }
+            .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+            .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+                border-top-color: #333;
+                border-bottom-color: #333;
+            }
+            .navbar-default .navbar-nav > .open > a .caret,
+            .navbar-default .navbar-nav > .open > a:hover .caret,
+            .navbar-default .navbar-nav > .open > a:focus .caret {
+                border-top-color: #555;
+                border-bottom-color: #555;
+            }
+            /* Mobile version */
+            .navbar-default .navbar-toggle {
+                border-color: #DDD;
+            }
+            .navbar-default .navbar-toggle:hover,
+            .navbar-default .navbar-toggle:focus {
+                background-color: #DDD;
+            }
+            .navbar-default .navbar-toggle .icon-bar {
+                background-color: #CCC;
+            }
+            @media (max-width: 767px) {
+                .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+                    color: #777;
+                }
+                .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+                .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+                    color: #333;
+                }
+            }
+        </style>
         <script>
             $(document).ready(function(){
                 $("#enLang").click(function () {
@@ -60,7 +138,7 @@
 
 <div th:fragment="header">
     <div class="container-fluid" style="padding-top: 15px ">
-        <nav class="navbar navbar-inverse ">
+        <nav class="navbar navbar-inverse navbar-default ">
             <div class="navbar-header">
 
                 <a class="navbar-brand font-weight-bold" href="#" th:text="#{meditationAttendanceSystem}"><H6></H6></a>
@@ -103,6 +181,10 @@
                     </ul>
                 </li>
 
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right" style="padding-right: 50px">
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" th:text="#{language}">
                         <span class="caret"></span></a>
@@ -113,9 +195,6 @@
                         <li><a id="khLang">Khmer</a></li>
                     </ul>
                 </li>
-
-            </ul>
-            <ul class="nav navbar-nav navbar-right" style="padding-right: 50px">
                 <li sec:authorize="isAuthenticated()">
                     <a href="/logout" th:href="@{#}" onclick="$('#form').submit();">
                         Logout <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;

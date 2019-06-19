@@ -27,12 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+            <state relative-caret-position="-2329">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2#28#0" expanded="true" />
                 <element signature="e#2#7#0" expanded="true" />
                 <element signature="e#2#8#0" expanded="true" />
@@ -42,132 +43,35 @@
                 <element signature="e#2#10#0" expanded="true" />
                 <element signature="e#2#32#0" expanded="true" />
                 <element signature="e#2#7#0" expanded="true" />
-                <element signature="e#2#10#0" expanded="true" />
                 <element signature="n#style#0;n#ul#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2#28#0" expanded="true" />
-                <element signature="e#2#6#0" expanded="true" />
                 <element signature="e#2#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="77" column="26" selection-start-line="77" selection-end-line="77" selection-end-column="26" />
+            <state relative-caret-position="336">
+              <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/file-upload.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="221">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
               <folding>
-                <element signature="e#2#8#0" expanded="true" />
-                <element signature="e#2#8#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/reports/entry-report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-765">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#2#13#0" expanded="true" />
-                <element signature="e#2#7#0" expanded="true" />
-                <element signature="e#2#7#0" expanded="true" />
-                <element signature="e#2#13#0" expanded="true" />
-                <element signature="e#2#17#0" expanded="true" />
-                <element signature="e#2#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/reports/faculty-block-report-by-student.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-              <folding>
-                <element signature="e#2#21#0" expanded="true" />
-                <element signature="e#2#23#0" expanded="true" />
-                <element signature="e#2#23#0" expanded="true" />
-                <element signature="e#2#27#0" expanded="true" />
-                <element signature="e#2#7#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2#9#0" expanded="true" />
-                <element signature="e#2#17#0" expanded="true" />
-                <element signature="e#2#13#0" expanded="true" />
-                <element signature="e#2#17#0" expanded="true" />
-                <element signature="e#2#19#0" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/reports/student-personal-report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-              <folding>
-                <element signature="e#2#21#0" expanded="true" />
-                <element signature="e#2#23#0" expanded="true" />
-                <element signature="e#2#23#0" expanded="true" />
-                <element signature="e#2#27#0" expanded="true" />
-                <element signature="e#2#7#0" expanded="true" />
-                <element signature="e#2#17#0" expanded="true" />
-                <element signature="e#2#13#0" expanded="true" />
-                <element signature="e#2#17#0" expanded="true" />
-                <element signature="e#2#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/faculty-extra-credit-report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#2#15#0" expanded="true" />
-                <element signature="e#2#7#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/access-denied.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -191,6 +95,7 @@
       <find>entr</find>
       <find>navbar</find>
       <find>icon</find>
+      <find>lan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/ClientApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/config/WaaMvcConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/welcome.html" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/controller/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/helper/TokenHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/config/SecurityConfig.java" />
@@ -239,17 +143,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/reports/faculty-block-report-by-student.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/blocks/block-add.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/blocks/block-list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_mn.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/batch/ManualEntryProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_sp.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_np.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_kh.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_sp.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
       </list>
     </option>
   </component>
@@ -453,18 +358,18 @@
       <workItem from="1560887623671" duration="3106000" />
       <workItem from="1560895099540" duration="583000" />
       <workItem from="1560896334265" duration="380000" />
-      <workItem from="1560896850206" duration="6806000" />
+      <workItem from="1560896850206" duration="11868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72470000" />
+    <option name="totallyTimeSpent" value="77532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1427" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17044623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27505487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -475,7 +380,7 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49817118" visible="true" weight="0.23592493" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49817118" visible="true" weight="0.23592493" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.37373737" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -712,14 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_sp.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="77" column="67" lean-forward="true" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_np.properties">
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
@@ -749,20 +646,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/MUM_campus_and_tower_.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="124" selection-start-line="6" selection-start-column="124" selection-end-line="6" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1271" />
@@ -774,9 +657,6 @@
           <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/favicon.ico">
       <provider selected="true" editor-type-id="images" />
@@ -858,14 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="77" column="26" selection-start-line="77" selection-end-line="77" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/reports/entry-report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765">
@@ -881,10 +753,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="94" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        <state relative-caret-position="153">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2#28#0" expanded="true" />
@@ -894,11 +778,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_sp.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="84" column="15" lean-forward="true" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+        <state relative-caret-position="-2329">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2#28#0" expanded="true" />
             <element signature="e#2#7#0" expanded="true" />
             <element signature="e#2#8#0" expanded="true" />
@@ -908,9 +801,29 @@
             <element signature="e#2#10#0" expanded="true" />
             <element signature="e#2#32#0" expanded="true" />
             <element signature="e#2#7#0" expanded="true" />
-            <element signature="e#2#10#0" expanded="true" />
             <element signature="n#style#0;n#ul#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2#9#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
         </state>
       </provider>
     </entry>

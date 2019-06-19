@@ -9,8 +9,9 @@
 <div th:replace="fragments/header :: header"/>
 
 <body sec:authorize="isAuthenticated()">
-<div class="container-fluid">
+<div class="container-fluid"  style="padding: 150px">
     Welcome to Meditation Attendance System
+   <span th:text="#{welcome}" style="text-wrap: normal; width: 500px" ></span>
 </div>
 </body>
 

@@ -54,11 +54,31 @@
             </div>
 
             <div class="row">
-                <div th:each="student : ${extraCreditModelSes.data}" class="col-xs-4">
-                    <span class="glyphicon glyphicon-user"></span>
-                      <label th:text="${student.id}+' '+${student.firstName}+' '+${student.lastName}" style="font-weight: bolder"></label>
-                      <p th:text="${student.extraPoint}" style="font-weight: bold"></p>
+                <div class="col-xs-4">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th> Student Id</th>
+                            <th> Student Name</th>
+                            <th> Extra Credit</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr th:each="student : ${extraCreditModelSes.data}">
+                            <td><span th:text="${student.id}"> Id </span></td>
+                            <td><span th:text="${student.firstName}+' '+${student.lastName}"> Student Name </span></td>
+                            <td><span th:text="${student.extraPoint}"> Extra Credit </span></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
+                <!--<div th:each="student : ${extraCreditModelSes.data}" class="col-xs-4">-->
+                    <!---->
+                    <!--<span class="glyphicon glyphicon-user"></span>-->
+                      <!--<label th:text="${student.id}+' '+${student.firstName}+' '+${student.lastName}" style="font-weight: bolder"></label>-->
+                      <!--<p th:text="${student.extraPoint}" style="font-weight: bold"></p>-->
+                <!--</div>-->
             </div>
         </div>
     </div>

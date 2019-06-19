@@ -27,17 +27,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/file-upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="488">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#2#9#0" expanded="true" />
                 <element signature="e#2#8#0" expanded="true" />
                 <element signature="e#2#9#0" expanded="true" />
                 <element signature="e#2#8#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_kh.properties">
+          <provider editor-type-id="ResourceBundle" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -113,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/messages_mn.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/client/batch/ManualEntryProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_np.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_kh.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_sp.properties" />
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/file-upload.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_kh.properties" />
       </list>
     </option>
   </component>
@@ -326,12 +336,12 @@
       <workItem from="1560887623671" duration="3106000" />
       <workItem from="1560895099540" duration="583000" />
       <workItem from="1560896334265" duration="380000" />
-      <workItem from="1560896850206" duration="21187000" />
+      <workItem from="1560896850206" duration="21449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86851000" />
+    <option name="totallyTimeSpent" value="87113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1427" height="878" extended-state="6" />
@@ -577,14 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_kh.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
@@ -787,14 +789,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/file-upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="488">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#2#9#0" expanded="true" />
             <element signature="e#2#8#0" expanded="true" />
             <element signature="e#2#9#0" expanded="true" />
             <element signature="e#2#8#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_kh.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -156,7 +156,7 @@
                     <a class="navbar-brand" th:href="@{/fileUpload/show}" th:text="#{import}"></a>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" th:text="#{reports}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" th:text="#{reports}">
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a th:if="${session.roles.contains('BLOCK_REPORT_FOR_FACULTY')}" th:href="@{/blockReportByStudent}" th:text="#{blockReportByStudent}"></a></li>
